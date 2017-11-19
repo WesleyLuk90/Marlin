@@ -352,9 +352,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define  DEFAULT_Kp 22.2
-  #define  DEFAULT_Ki 1.08
-  #define  DEFAULT_Kd 114
+  // #define  DEFAULT_Kp 22.2
+  // #define  DEFAULT_Ki 1.08
+  // #define  DEFAULT_Kd 114
 
   // MakerGear
   //#define  DEFAULT_Kp 7.0
@@ -367,9 +367,9 @@
   //#define  DEFAULT_Kd 440
 
   // Custom PID
-  #define  DEFAULT_Kp 26.58
-  #define  DEFAULT_Ki 5.15
-  #define  DEFAULT_Kd 34.30
+  #define  DEFAULT_Kp 18.99
+  #define  DEFAULT_Ki 1.35
+  #define  DEFAULT_Kd 66.90
 
 #endif // PIDTEMP
 
@@ -385,7 +385,7 @@
 // If your configuration is significantly different than this and you don't understand the issues involved, you probably
 // shouldn't use bed PID until someone else verifies your hardware works.
 // If this is enabled, find your own PID constants below.
-//#define PIDTEMPBED
+// #define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
@@ -530,7 +530,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 1600, 95.1837 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 1600, 90.6511 }
 
 /**
  * Default Max Feed Rate (mm/s)
