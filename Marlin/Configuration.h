@@ -499,10 +499,11 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  27.85
-    #define DEFAULT_Ki   2.64
-    #define DEFAULT_Kd 73.61
+    #define DEFAULT_Kp  28.33
+    #define DEFAULT_Ki   2.46
+    #define DEFAULT_Kd 81.64
   #endif
+
 #endif // PIDTEMP
 
 //===========================================================================
@@ -1131,7 +1132,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 180
+#define Z_MAX_POS 200
 
 /**
  * Software Endstops
